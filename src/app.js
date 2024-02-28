@@ -27,7 +27,7 @@ const port = 3000;
 // require("./db/conn.js");
 
 
-const static_path =path.join(__dirname, "../public");
+const static_path =path.join(__dirname, "../");
 app.use(express.static(static_path));
 
 
